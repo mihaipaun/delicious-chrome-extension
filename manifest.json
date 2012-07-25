@@ -1,0 +1,25 @@
+{
+  "name": "Delicious world!",
+  "version": "1.0",
+  "description": "My first Chrome extension",
+  "permissions": [
+    "tabs",
+    "https://api.del.icio.us/v1/*"
+  ],
+  "browser_action": {
+    "default_icon": "images/icon16grey.png",
+    "default_popup": "popup.html",
+    "icons": [
+      "images/icon16.png",
+      "images/icon16grey.png"
+    ]
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "icons": {
+    "16": "images/icon16grey.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
