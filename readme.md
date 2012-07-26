@@ -11,3 +11,6 @@ Simple Chrome extension that shows if the current page has already been saved or
 * Send authorization headers instead of username and password
 * Use the popup to bookmark an URL
 * Package and upload it to Chrome Web Store
+
+### Limitations
+Because of the way Delicious saves bookmarks, it is currently not possible (or at least I can't think of a proper, generic way of doing this) to check for URL's that have various params attached to it. For example, if the bookmarked linked in Delicious looks something like this: http://buildnewgames.com/real-time-multiplayer/__?utm_source=javascriptweekly&utm_medium=email__ and the URL you have in your address bar is this: http://buildnewgames.com/real-time-multiplayer/ it won't show up as already saved
